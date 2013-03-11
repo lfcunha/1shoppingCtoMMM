@@ -26,15 +26,15 @@
 function __autoload($class)  {    //this will load the required class only when necessary (when the class get's called)
     include_once("classes/{$class}.class.php");
                              }
-include_once("keys/keys.ini");   //includes API KEYS
+include_once("config/conf.ini");   //includes API KEYS
 require('madmimi/MadMimi.class.php');
-include_once("keys/keys.ini");   //includes API KEYS
 $user=MADMIMI_USERNAME;
 $key=MADMIMI_KEY;
 $merchantID=MERCHANT_ID;
 $merchantKey=SHOPPING_CART_KEY;
+$timezone=TIMEZONE;
 
-date_default_timezone_set('America/New_York');
+date_default_timezone_set(TIMEZONE);
 
 
 
