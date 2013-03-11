@@ -1,6 +1,7 @@
 ####1shoppingCtoMMM
 
+lfcunha@gmail.com
 
-PHP script to add every product ina 1shoppingcart.com product as a mailing list to madmimi
+PHP script to add every product in a 1shoppingcart.com mailing list to madmimi.com
 
-configure API keys in Keys>keys.ini
+user must configure API keys in Keys>keys.ini
