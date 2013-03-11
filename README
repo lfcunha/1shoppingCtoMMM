@@ -2,6 +2,6 @@
 
 lfcunha@gmail.com
 
-PHP script to add every product in a 1shoppingcart.com mailing list to madmimi.com
+PHP script to add every product in a 1shoppingcart.com as a mailing list to madmimi.com
 
 user must configure API keys in Keys>keys.ini
